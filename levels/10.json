@@ -9,30 +9,80 @@
     {
       "x": 1650,
       "y": 525,
-      "width": 900,
+      "width": 1065,
       "height": 650
     }
   ],
   "stairs": null,
   "spikes": [
     {
-      "x": 1000,
+      "x": 1020,
       "y": 990,
       "quantity": 20,
       "gap": 50,
       "angle": 0
     },
     {
-      "x": 1970,
+      "x": 2000,
       "y": 860,
-      "quantity": 16,
+      "quantity": 18,
       "gap": 50,
       "angle": 180
+    },
+    {
+      "x": 1010,
+      "y": 215,
+      "quantity": 16,
+      "gap": 50,
+      "angle": 90
+    },
+    {
+      "x": 1105,
+      "y": 830,
+      "quantity": 13,
+      "gap": 50,
+      "angle": -90
     }
   ],
   "checkpoint": null,
   "level_end": [ 1850, 950 ],
-  "hints": null,
+  "hints": [
+    {
+      "npc": [ 500, 165 ],
+      "text": "What's up with those guys?",
+      "text_pos": [ 450, 980 ]
+    },
+    {
+      "npc": [ 1300, 165 ],
+      "text": "Aaron Zhang",
+      "text_pos": [ 1340, 980 ]
+    },
+    {
+      "npc": [ 1400, 165 ],
+      "text": "Allan Jiang",
+      "text_pos": [ 1440, 980 ]
+    },
+    {
+      "npc": [ 1500, 165 ],
+      "text": "Brayden Shinkawa",
+      "text_pos": [ 1500, 980 ]
+    },
+    {
+      "npc": [ 1600, 165 ],
+      "text": "Daniel Lee",
+      "text_pos": [ 1650, 980 ]
+    },
+    {
+      "npc": [ 1700, 165 ],
+      "text": "Joshua Chew",
+      "text_pos": [ 1740, 980 ]
+    },
+    {
+      "npc": [ 1800, 165 ],
+      "text": "Kevin Zhu",
+      "text_pos": [ 1850, 980 ]
+    }
+  ],
   "gravity": null,
   "friction": null,
   "ink_limit": null,
@@ -42,7 +92,7 @@
     "spike_projectile_spawners": null
   },
   "enemies": {
-    "chase_boulder": [ 200, 100 ],
+    "chase_boulder": null,
     "archers": null
   },
   "paintcans": null
