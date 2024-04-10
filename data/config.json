@@ -8,7 +8,7 @@
 	"line_collision_on": true,
 	"disappearing_timer": 4000,
 	"paintcan_value": 100,
-	"starting_level": 10,
+	"starting_level": 0,
 	"max_level": 10,
 	"tick_rate": -1,
 	"target_fps": 120
