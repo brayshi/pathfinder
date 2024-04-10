@@ -9,7 +9,7 @@
 	"disappearing_timer": 4000,
 	"paintcan_value": 100,
 	"starting_level": 0,
-	"max_level": 8,
+	"max_level": 9,
 	"tick_rate": -1,
 	"target_fps": 120
 }

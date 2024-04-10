@@ -1,0 +1,139 @@
+{
+  "walls": null,
+  "stairs": [
+    {
+      "quantity": 1,
+      "x": 250,
+      "y": 300,
+      "gap": 50,
+      "width": 100,
+      "height": 20
+    },
+    {
+      "quantity": 1,
+      "x": 500,
+      "y": 400,
+      "gap": 50,
+      "width": 100,
+      "height": 20
+    },
+    {
+      "quantity": 1,
+      "x": 750,
+      "y": 500,
+      "gap": 50,
+      "width": 100,
+      "height": 20
+    },
+    {
+      "quantity": 1,
+      "x": 250,
+      "y": 900,
+      "gap": 50,
+      "width": 100,
+      "height": 20
+    },
+    {
+      "quantity": 1,
+      "x": 1000,
+      "y": 900,
+      "gap": 50,
+      "width": 100,
+      "height": 20
+    },
+    {
+      "quantity": 1,
+      "x": 1750,
+      "y": 900,
+      "gap": 50,
+      "width": 100,
+      "height": 20
+    },
+    {
+      "quantity": 1,
+      "x": 1750,
+      "y": 300,
+      "gap": 50,
+      "width": 100,
+      "height": 20
+    },
+    {
+      "quantity": 1,
+      "x": 1500,
+      "y": 400,
+      "gap": 50,
+      "width": 100,
+      "height": 20
+    },
+    {
+      "quantity": 1,
+      "x": 1250,
+      "y": 500,
+      "gap": 50,
+      "width": 100,
+      "height": 20
+    }
+  ],
+  "spikes": null,
+  "checkpoint": null,
+  "level_end": [ 1000, 200 ],
+  "hint": {
+    "npc": [ 1000, 800 ],
+    "text": "block the archers!",
+    "text_pos": [ 1000, 615 ]
+  },
+  "gravity": null,
+  "friction": null,
+  "ink_limit": null,
+  "line_collision_on": true,
+  "player_spawn": [ 1000, 800 ],
+  "spawners": {
+    "boulder_spawners": null,
+    "spike_projectile_spawners": null
+  },
+  "enemies": {
+    "chase_boulder": null,
+      "archers"
+      :
+      [
+        {
+          "x": 250,
+          "y": 200
+        },
+        {
+          "x": 500,
+          "y": 300
+        },
+        {
+          "x": 750,
+          "y": 400
+        },
+        {
+          "x": 1750,
+          "y": 200
+        },
+        {
+          "x": 1500,
+          "y": 300
+        },
+        {
+          "x": 1250,
+          "y": 400
+        }
+      ]
+  },
+  "paintcans": [
+    {
+      "x": 250,
+      "y": 850,
+      "value": 1000,
+      "fixed": true
+    },
+    {
+      "x": 1750,
+      "y": 850,
+      "value": 1000,
+      "fixed": true
+    }
+  ]
+}
