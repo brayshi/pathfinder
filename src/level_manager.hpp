@@ -16,8 +16,7 @@ struct InitWall {
 };
 
 struct InitSpike {
-	int x;
-	int y;
+	vec2 pos;
 	float angle;
 };
 

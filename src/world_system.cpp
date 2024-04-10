@@ -591,7 +591,7 @@ Level WorldSystem::createLevel(int level_idx) {
 		createWall(renderer, { w.x, w.y }, { w.xSize, w.ySize });
 	}
 	for (InitSpike s : level.spikes) {
-		createSpikes(renderer, { s.x, s.y }, { 40, 20 }, s.angle);
+		createSpikes(renderer, s.pos, { 40, 20 }, s.angle);
 	}
 	if (level.hasCheckpoint) {
 		createCheckpoint(renderer, level.checkpoint);

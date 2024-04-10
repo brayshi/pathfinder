@@ -119,16 +119,19 @@ void LevelManager::parseStair(Level& level, json stairJson) {
 }
 
 void LevelManager::parseSpike(Level& level, json spikeJson) {
-	int x = spikeJson["x"];
-	int y = spikeJson["y"];
+	vec2 init_pos;
+	init_pos.x = spikeJson["x"];
+	init_pos.y = spikeJson["y"];
 	int numSpikes = spikeJson["quantity"];
 	int gap = spikeJson["gap"];
 	int angle_deg = spikeJson["angle"];
 	float angle = angle_deg * (M_PI / 180);
+
+	vec2 gap_vec = vec2(gap, 0);
+	gap_vec = rotate_vector(gap_vec, angle);
 	for (int i = 0; i < numSpikes; ++i) {
 		InitSpike spike;
-		spike.x = x + i * gap;
-		spike.y = y;
+		spike.pos = init_pos + static_cast<float>(i) * gap_vec;
 		spike.angle = angle;
 		level.spikes.push_back(spike);
 	}
