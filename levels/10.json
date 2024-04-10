@@ -1,0 +1,49 @@
+{
+  "walls": [
+    {
+      "x": 350,
+      "y": 600,
+      "width": 1300,
+      "height": 800
+    },
+    {
+      "x": 1650,
+      "y": 525,
+      "width": 900,
+      "height": 650
+    }
+  ],
+  "stairs": null,
+  "spikes": [
+    {
+      "x": 1000,
+      "y": 990,
+      "quantity": 20,
+      "gap": 50,
+      "angle": 0
+    },
+    {
+      "x": 1220,
+      "y": 860,
+      "quantity": 17,
+      "gap": 50,
+      "angle": 180
+    }
+  ],
+  "checkpoint": null,
+  "level_end": [ 1850, 950 ],
+  "hints": null,
+  "gravity": null,
+  "friction": null,
+  "ink_limit": null,
+  "player_spawn": [ 350, 100 ],
+  "spawners": {
+    "boulder_spawners": null,
+    "spike_projectile_spawners": null
+  },
+  "enemies": {
+    "chase_boulder": [ 200, 100 ],
+    "archers": null
+  },
+  "paintcans": null
+}
