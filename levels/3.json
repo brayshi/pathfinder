@@ -82,5 +82,12 @@
     "chase_boulder": null,
     "archers": null
   },
-  "paintcans": null
+  "paintcans": [
+    {
+      "x": 750,
+      "y": 850,
+      "fixed": true,
+      "value": 1000
+    }
+  ]
 }

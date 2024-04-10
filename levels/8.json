@@ -36,7 +36,7 @@
         "x": 0,
         "y": -100,
         "random_x": true,
-        "delay": 6000
+        "delay": 10000
       }
     ],
     "spike_projectile_spawners": null

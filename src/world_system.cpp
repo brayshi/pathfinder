@@ -215,8 +215,8 @@ void WorldSystem::handleDrawOnLines(int currDrawing) {
 	}
 	else if (currDrawing == 1) {
 		DrawingSystem::remainingDrawingCount = level.inkLimit;
-		createIndividualPlatforms({ 600, window_height_px - 300 }, { 200, 100 });
-		Entity e = createPaintCan(renderer, { 600, window_height_px - 350 }, { 25.f, 50.f }, 300);
+		createIndividualPlatforms({ 600, window_height_px - 400 }, { 200, 100 });
+		Entity e = createPaintCan(renderer, { 600, window_height_px - 450 }, { 25.f, 50.f }, 300);
 		Motion& m = registry.motions.get(e);
 		m.fixed = true;
 		drawLinesLoop(700, 25, 400, -25, 10, 0.698132, 0);
@@ -225,8 +225,8 @@ void WorldSystem::handleDrawOnLines(int currDrawing) {
 	}
 	else if (currDrawing == 2) {
 		DrawingSystem::remainingDrawingCount = level.inkLimit;
-		createIndividualPlatforms({ 850, window_height_px - 300 }, { 200, 100 });
-		Entity e = createPaintCan(renderer, { 850, window_height_px - 350 }, { 25.f, 50.f }, 300);
+		createIndividualPlatforms({ 850, window_height_px - 400 }, { 200, 100 });
+		Entity e = createPaintCan(renderer, { 850, window_height_px - 450 }, { 25.f, 50.f }, 300);
 		Motion& m = registry.motions.get(e);
 		m.fixed = true;
 		drawLinesLoop(950, 25, 100, 0, 7, 1.5708, 0);
@@ -250,8 +250,8 @@ void WorldSystem::handleDrawOnLines(int currDrawing) {
 	}
 	else if (currDrawing == 3) {
 		DrawingSystem::remainingDrawingCount = level.inkLimit;
-		createIndividualPlatforms({ 1100, window_height_px - 300 }, { 200, 100 });
-		Entity e = createPaintCan(renderer, { 1100, window_height_px - 350 }, { 25.f, 50.f }, 300);
+		createIndividualPlatforms({ 1100, window_height_px - 400 }, { 200, 100 });
+		Entity e = createPaintCan(renderer, { 1100, window_height_px - 450 }, { 25.f, 50.f }, 300);
 		Motion& m = registry.motions.get(e);
 		m.fixed = true;
 		drawLinesLoop(750, 25, 420, -40, 10, 0.698132, 0);
@@ -265,7 +265,7 @@ void WorldSystem::handleDrawOnLines(int currDrawing) {
 		//drawLinesLoop(1000, 35, 75, 30, 7, 2.44346, 0);
 	}
 	else if (currDrawing == 4) {
-		createIndividualPlatforms({ 1350, window_height_px - 300 }, { 200, 100 });
+		createIndividualPlatforms({ 1350, window_height_px - 400 }, { 200, 100 });
 	}
 }
 
@@ -424,7 +424,7 @@ bool WorldSystem::step(float elapsed_ms_since_last_update) {
 	//update parallax background based on player position
 	Motion& m = registry.motions.get(player);
 	float dx = m.position.x - renderer->camera_x;
-	renderer->camera_x = dx * cameraSpeed;
+	renderer->camera_x = -dx * cameraSpeed;
 	float dy = m.position.y - renderer->camera_y;
 	renderer->camera_y = dy * cameraSpeed;
 
