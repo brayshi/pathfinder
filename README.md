@@ -8,7 +8,7 @@ In Pathfinder, players can harness the power of a magical pencil to draw lines d
 
 ![Screenshot (209)](https://github.com/brayshi/pathfinder/assets/83468661/dca7fd04-2a83-44b7-9470-40f73a3633e7)
 
-With intuitive controls and dynamic physics, SketchBound offers a seamless blend of platforming action and creative expression. Players must think critically and adapt their drawing strategy on the fly to navigate treacherous terrain, outsmart cunning enemies, and uncover secrets hidden within the vibrant landscapes.
+With intuitive controls and dynamic physics, Pathfinder offers a seamless blend of platforming action and creative expression. Players must think critically and adapt their drawing strategy on the fly to navigate treacherous terrain, outsmart cunning enemies, and uncover secrets hidden within the vibrant landscapes.
 
 Embark on an adventure where the power of imagination is the ultimate tool. Dive into Pathfinder and let your creativity run wild as you sketch your path to victory in this charming and inventive platformer.
 
